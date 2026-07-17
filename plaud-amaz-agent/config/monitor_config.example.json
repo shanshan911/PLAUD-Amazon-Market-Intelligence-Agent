@@ -1,0 +1,143 @@
+{
+  "monitoring": {
+    "week_id": "2026-W20",
+    "marketplaces": ["US", "UK", "DE", "FR", "IT", "ES", "JP"]
+  },
+  "marketplaces": {
+    "US": {
+      "currency": "USD",
+      "keyword": "voice recorder",
+      "category_path": "Office Products > Electronics > Voice Recorders",
+      "category_url": "待业务提供"
+    },
+    "UK": {
+      "currency": "GBP",
+      "keyword": "voice recorder",
+      "category_path": "待业务提供",
+      "category_url": "待业务提供"
+    },
+    "DE": {
+      "currency": "EUR",
+      "keyword": "diktiergerät",
+      "category_path": "待业务提供",
+      "category_url": "待业务提供"
+    },
+    "FR": {
+      "currency": "EUR",
+      "keyword": "dictaphone",
+      "category_path": "待业务提供",
+      "category_url": "待业务提供"
+    },
+    "IT": {
+      "currency": "EUR",
+      "keyword": "registratore vocale",
+      "category_path": "待业务提供",
+      "category_url": "待业务提供"
+    },
+    "ES": {
+      "currency": "EUR",
+      "keyword": "grabadora de voz",
+      "category_path": "待业务提供",
+      "category_url": "待业务提供"
+    },
+    "JP": {
+      "currency": "JPY",
+      "keyword": "ボイスレコーダー",
+      "category_path": "待业务提供",
+      "category_url": "待业务提供"
+    }
+  },
+  "plaud": {
+    "aliases": ["PLAUD", "Plaud", "PLAUD AI", "PLAUD NOTE", "PLAUD-AI"]
+  },
+  "competitors": {
+    "default": [
+      {
+        "brand": "Sony",
+        "aliases": ["SONY"],
+        "priority": "高",
+        "include_in_total": true
+      },
+      {
+        "brand": "Olympus",
+        "aliases": ["OM SYSTEM", "Olympus Audio"],
+        "priority": "中",
+        "include_in_total": true
+      },
+      {
+        "brand": "iFLYTEK",
+        "aliases": ["IFLYTEK", "iFlytek"],
+        "priority": "高",
+        "include_in_total": true
+      }
+    ],
+    "JP": [
+      {
+        "brand": "Panasonic",
+        "aliases": ["パナソニック"],
+        "priority": "中",
+        "include_in_total": true
+      }
+    ]
+  },
+  "ai_rules": {
+    "default_keywords": ["AI", "A.I.", "Artificial Intelligence"],
+    "marketplace_keywords": {
+      "DE": ["KI", "Künstliche Intelligenz"],
+      "FR": ["IA", "Intelligence Artificielle"],
+      "IT": ["IA", "Intelligenza Artificiale"],
+      "ES": ["IA", "Inteligencia Artificial"],
+      "JP": ["エーアイ", "人工知能"]
+    },
+    "exclude_terms": ["MAIN"]
+  },
+  "input": {
+    "raw_dir": "data/mock/raw",
+    "file_pattern": "{week_id}_{marketplace}_*.xlsx"
+  },
+  "output": {
+    "output_dir": "outputs",
+    "report_formats": ["csv", "markdown"],
+    "thresholds": {
+      "plaud_share_pp": 3,
+      "competitor_jump_pp": 5,
+      "ai_share_pp": 5
+    }
+  },
+  "api_integrations": {
+    "amazon_ads": {
+      "enabled": false,
+      "region": "EU",
+      "client_id_env": "AMAZON_ADS_CLIENT_ID",
+      "client_secret_env": "AMAZON_ADS_CLIENT_SECRET",
+      "refresh_token_env": "AMAZON_ADS_REFRESH_TOKEN",
+      "profile_id_env": "AMAZON_ADS_PROFILE_ID",
+      "timeout_seconds": 30
+    },
+    "sp_api": {
+      "enabled": false,
+      "selling_region": "EU",
+      "endpoint": "https://sellingpartnerapi-eu.amazon.com",
+      "aws_region": "eu-west-1",
+      "lwa_client_id_env": "SP_API_LWA_CLIENT_ID",
+      "lwa_client_secret_env": "SP_API_LWA_CLIENT_SECRET",
+      "refresh_token_env": "SP_API_REFRESH_TOKEN",
+      "aws_access_key_env": "SP_API_AWS_ACCESS_KEY_ID",
+      "aws_secret_key_env": "SP_API_AWS_SECRET_ACCESS_KEY",
+      "aws_session_token_env": "SP_API_AWS_SESSION_TOKEN",
+      "user_agent": "PLAUDMonitor/0.1 (Language=Python)",
+      "timeout_seconds": 30
+    },
+    "sellersprite": {
+      "enabled": false,
+      "base_url": "https://api.sellersprite.com",
+      "mcp_url": "https://mcp.sellersprite.com/mcp",
+      "secret_key_env": "SELLERSPRITE_SECRET_KEY",
+      "timeout_seconds": 30,
+      "mcp_plan": "Max",
+      "mcp_monthly_quota": 10000,
+      "mcp_qpm": 40,
+      "mcp_estimated_calls_per_import": 3
+    }
+  }
+}

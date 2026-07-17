@@ -1,0 +1,921 @@
+{
+  "monitoring": {
+    "week_id": "2026-W20",
+    "marketplaces": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT",
+      "ES",
+      "JP"
+    ]
+  },
+  "marketplaces": {
+    "US": {
+      "currency": "USD",
+      "keyword": "voice recorder",
+      "category_path": "‹Electronics‹Portable Audio & Video‹Digital Voice Recorders",
+      "category_url": "https://www.amazon.com/gp/bestsellers/electronics/227758/ref=pd_zg_hrsr_electronics",
+      "sellersprite_node_id_path": "172282:172623:227758"
+    },
+    "UK": {
+      "currency": "GBP",
+      "keyword": "voice recorder",
+      "category_path": "‹Stationery & Office Supplies‹Office Electronics‹Voice Recorders & Accessories‹Digital Voice Recorders",
+      "category_url": "https://www.amazon.co.uk/gp/bestsellers/officeproduct/12943811/ref=pd_zg_hrsr_officeproduct",
+      "sellersprite_node_id_path": "192413031:197746031:560902:12943811"
+    },
+    "DE": {
+      "currency": "EUR",
+      "keyword": "Diktiergerät",
+      "category_path": "‹Stationery & Office Supplies‹Office Electronics‹Voice Recorders & Accessories‹Digital Voice Recorders",
+      "category_url": "https://www.amazon.de/-/en/gp/bestsellers/officeproduct/3468331/ref=pd_zg_hrsr_officeproduct",
+      "sellersprite_node_id_path": "192416031:197754031:589880:3468331"
+    },
+    "FR": {
+      "currency": "EUR",
+      "keyword": "Enregistreur Vocal",
+      "category_path": "‹Office Products‹Electronic supplies‹Voice Recorders‹Digital Voice Recorders",
+      "category_url": "https://www.amazon.fr/gp/bestsellers/officeproduct/9474407031/ref=pd_zg_hrsr_officeproduct",
+      "sellersprite_node_id_path": "192419031:197762031:20813865031:9474407031"
+    },
+    "IT": {
+      "currency": "EUR",
+      "keyword": "Registratore Vocale",
+      "category_path": "‹Office Products‹Office Electronics‹Voice Recorders‹Digital Voice Recorders",
+      "category_url": "https://www.amazon.it/gp/bestsellers/office/3474650031/ref=pd_zg_hrsr_office",
+      "sellersprite_node_id_path": "3606310031:3474614031:20866058031:3474650031"
+    },
+    "ES": {
+      "currency": "EUR",
+      "keyword": "Grabadora de Voz",
+      "category_path": "‹Office Products‹Office Electronics‹Voice Recorders‹Digital Voice Recorders",
+      "category_url": "https://www.amazon.es/-/en/gp/bestsellers/office/4352906031/ref=pd_zg_hrsr_office",
+      "sellersprite_node_id_path": "3628728031:4352790031:4352830031:4352906031"
+    },
+    "JP": {
+      "currency": "JPY",
+      "keyword": "ボイスレコーダー",
+      "category_path": "‹すべてのカテゴリー‹家電&カメラ‹ポータブルオーディオ‹ボイスレコーダー",
+      "category_url": "https://www.amazon.co.jp/gp/bestsellers/electronics/85400051/ref=pd_zg_hrsr_electronics",
+      "sellersprite_node_id_path": "3210981:3371411:85400051"
+    }
+  },
+  "plaud": {
+    "aliases": [
+      "PLAUD",
+      "PLAUD AI",
+      "PLAUD NOTE",
+      "Plaud",
+      "PLAUD-AI"
+    ]
+  },
+  "competitors": {
+    "default": [],
+    "US": [
+      {
+        "brand": "Pocket",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": "最高优先级"
+      },
+      {
+        "brand": "Sony",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Tonfarb",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "comulytic",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": "最高优先级"
+      },
+      {
+        "brand": "Elasound",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Sunlan",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Soundcore",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": "最高优先级"
+      },
+      {
+        "brand": "EVISTR",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Yorlu",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "EVIDA",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "HiDock",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "iflytek",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "LIMU",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "YIVIDA",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "RECOLX",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Mobvoi",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "BOYA",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      }
+    ],
+    "UK": [
+      {
+        "brand": "soundcore",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "FOCASE REC",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "RECOLX",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "NUASI",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Mobvoi",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "NEWYES",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "PEDNRJFT",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "MECHEN",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Philips",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      },
+      {
+        "brand": "ZIPCIDE",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      }
+    ],
+    "DE": [
+      {
+        "brand": "Pocket",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "soundcore",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "Mobvoi",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "comulytic",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "PEDNRJFT",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "NUASI",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "EUNEWR",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "NEWYES",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "BOYA",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "Olycism",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "notta",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "SKARA",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": "传统录音笔增加AI功能"
+      },
+      {
+        "brand": "PlayDen",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "FOCASE REC",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "SOXOI",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "LemoVoz",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "YunLone",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "RECOLX",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "jojobnj",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": "Ai类录音品牌"
+      },
+      {
+        "brand": "MECHEN",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      },
+      {
+        "brand": "Yegolito",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      },
+      {
+        "brand": "Fikyra",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      },
+      {
+        "brand": "Hinne",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": "传统录音笔增加AI功能"
+      },
+      {
+        "brand": "NekSide",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      }
+    ],
+    "FR": [
+      {
+        "brand": "soundcore",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Mobvoi",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "SOXOI",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Dittybuy",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "YunLone",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Gonikli",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "NUASI",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Philips",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "woeaozy",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Vandlion",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      },
+      {
+        "brand": "DizerLin",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      },
+      {
+        "brand": "MECHEN",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      }
+    ],
+    "IT": [
+      {
+        "brand": "NUASI",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Philips",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "woeaozy",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Mobvoi",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "YunLone",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "STTWUNAKE",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      }
+    ],
+    "ES": [
+      {
+        "brand": "SOXOI",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Dittybuy",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Soundcore",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Mobvoi",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "NUASI",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "FOCASE REC",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Gonikli",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      },
+      {
+        "brand": "STTWUNAKE",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      },
+      {
+        "brand": "MECHEN",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": "传统录音笔头部品牌"
+      }
+    ],
+    "JP": [
+      {
+        "brand": "comulytic",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "notta",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Soundcore",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "HiDock",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "VIAIM",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Fohil",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "TALIX",
+        "aliases": [],
+        "priority": "高",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "ZENCHORD",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Mugukue",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "QZT",
+        "aliases": [],
+        "priority": "低",
+        "include_in_total": true,
+        "note": ""
+      },
+      {
+        "brand": "Sony",
+        "aliases": [],
+        "priority": "中",
+        "include_in_total": true,
+        "note": ""
+      }
+    ]
+  },
+  "ai_rules": {
+    "default_keywords": [
+      "AI",
+      "A.I.",
+      "Artificial Intelligence"
+    ],
+    "marketplace_keywords": {
+      "DE": [
+        "KI",
+        "Künstliche Intelligenz"
+      ],
+      "FR": [
+        "IA",
+        "Intelligence Artificielle"
+      ],
+      "IT": [
+        "IA",
+        "Intelligenza Artificiale"
+      ],
+      "ES": [
+        "IA",
+        "Inteligencia Artificial"
+      ],
+      "JP": [
+        "エーアイ",
+        "人工知能"
+      ]
+    },
+    "exclude_terms": [
+      "MAIN"
+    ]
+  },
+  "input": {
+    "raw_dir": "data/raw",
+    "file_pattern": "{week_id}_{marketplace}_*.xlsx"
+  },
+  "output": {
+    "output_dir": "outputs",
+    "report_formats": [
+      "csv",
+      "markdown"
+    ],
+    "thresholds": {
+      "plaud_share_pp": 3,
+      "competitor_jump_pp": 5,
+      "ai_share_pp": 5
+    }
+  },
+  "sheets": {
+    "brand_concentration": [
+      "品牌集中度",
+      "Brands",
+      "Brand Concentration"
+    ],
+    "product_concentration": [
+      "商品集中度",
+      "Product Concentration"
+    ]
+  },
+  "field_aliases": {
+    "brand_name": [
+      "品牌名",
+      "品牌",
+      "Brand",
+      "brand"
+    ],
+    "asin": [
+      "ASIN",
+      "asin"
+    ],
+    "product_title": [
+      "商品标题",
+      "标题",
+      "Product Title",
+      "Title"
+    ],
+    "product_type": [
+      "类型",
+      "商品类型",
+      "Type"
+    ],
+    "monthly_units": [
+      "月销量",
+      "求和项:月销量",
+      "销量",
+      "Monthly Sales",
+      "Monthly Units"
+    ],
+    "monthly_revenue": [
+      "月销售额",
+      "求和项:月销售额",
+      "销售额",
+      "Monthly Revenue",
+      "Revenue"
+    ],
+    "monthly_units_share": [
+      "月销量占比",
+      "销量占比",
+      "市场份额",
+      "Monthly Sales Share",
+      "Unit Share",
+      "Market Share"
+    ],
+    "monthly_revenue_share": [
+      "月销售额占比",
+      "销售额占比",
+      "Revenue Share"
+    ],
+    "price": [
+      "价格",
+      "售价",
+      "Price"
+    ],
+    "bsr_rank": [
+      "BSR排名",
+      "BSR",
+      "排名",
+      "Rank",
+      "小类BSR",
+      "大类BSR"
+    ],
+    "product_url": [
+      "商品链接",
+      "商品详情页链接",
+      "链接",
+      "URL",
+      "Product URL"
+    ]
+  },
+  "api_integrations": {
+    "amazon_ads": {
+      "enabled": false,
+      "region": "EU",
+      "client_id_env": "AMAZON_ADS_CLIENT_ID",
+      "client_secret_env": "AMAZON_ADS_CLIENT_SECRET",
+      "refresh_token_env": "AMAZON_ADS_REFRESH_TOKEN",
+      "profile_id_env": "AMAZON_ADS_PROFILE_ID",
+      "timeout_seconds": 30
+    },
+    "sp_api": {
+      "enabled": false,
+      "selling_region": "EU",
+      "endpoint": "https://sellingpartnerapi-eu.amazon.com",
+      "aws_region": "eu-west-1",
+      "lwa_client_id_env": "SP_API_LWA_CLIENT_ID",
+      "lwa_client_secret_env": "SP_API_LWA_CLIENT_SECRET",
+      "refresh_token_env": "SP_API_REFRESH_TOKEN",
+      "aws_access_key_env": "SP_API_AWS_ACCESS_KEY_ID",
+      "aws_secret_key_env": "SP_API_AWS_SECRET_ACCESS_KEY",
+      "aws_session_token_env": "SP_API_AWS_SESSION_TOKEN",
+      "user_agent": "PLAUDMonitor/0.1 (Language=Python)",
+      "timeout_seconds": 30
+    },
+    "sellersprite": {
+      "enabled": true,
+      "base_url": "https://api.sellersprite.com",
+      "mcp_url": "https://mcp.sellersprite.com/mcp",
+      "secret_key_env": "SELLERSPRITE_SECRET_KEY",
+      "timeout_seconds": 30,
+      "mcp_plan": "Max",
+      "mcp_monthly_quota": 10000,
+      "mcp_qpm": 40,
+      "mcp_estimated_calls_per_import": 3
+    }
+  },
+  "resource_import": {
+    "source_file": "/Users/plaud/Downloads/PLAUD_监控Agent_资源准备清单_v1.2 (1).xlsx",
+    "seller_sprite_account_available": true,
+    "amazon_access": {
+      "US": {
+        "available": true,
+        "postal_code": "91748",
+        "note": "@Tony(李水平)个人账号"
+      },
+      "UK": {
+        "available": true,
+        "postal_code": "SW1A 1AA",
+        "note": ""
+      },
+      "DE": {
+        "available": true,
+        "postal_code": "10115",
+        "note": ""
+      },
+      "FR": {
+        "available": true,
+        "postal_code": "75000",
+        "note": ""
+      },
+      "IT": {
+        "available": true,
+        "postal_code": "00184",
+        "note": ""
+      },
+      "ES": {
+        "available": true,
+        "postal_code": "28001",
+        "note": ""
+      },
+      "JP": {
+        "available": true,
+        "postal_code": "28001",
+        "note": ""
+      }
+    },
+    "sensitive_fields_excluded": true
+  }
+}
